@@ -1,0 +1,28 @@
+{
+  "name": "tindev",
+  "version": "1.0.0",
+  "description": "TinDev - Treinamento - OminiStack 8 - RocketSeat",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffersontee/tindev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffersontee/tindev/issues"
+  },
+  "homepage": "https://github.com/Jeffersontee/tindev#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
